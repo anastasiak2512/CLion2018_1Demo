@@ -1,0 +1,1 @@
+add_library(clang-tidy clang_tidy_options.cpp)
