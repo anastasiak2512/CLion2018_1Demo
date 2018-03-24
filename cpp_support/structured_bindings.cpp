@@ -7,7 +7,8 @@
 #include <iostream>
 
 void struct_bind_sample() {
-    std::map<int, std::string> elements{{1, "Hello"}, {2, "World"}};
+    std::map<int, std::string> elements{{1, "Hello"},
+                                        {2, "World"}};
 
     for (const auto&[key, value] : elements) {
         std::cout << key << ": " << value << '\n';
